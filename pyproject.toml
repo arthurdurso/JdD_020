@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jdd-020"
+version = "0.1.0"
+description = ""
+authors = ["Durso <dursoarthur@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+fastapi = "^0.115.2"
+uvicorn = "^0.32.0"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
